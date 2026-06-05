@@ -1,0 +1,127 @@
+{
+  "source": {
+    "page": "https://port.pharos.xyz/",
+    "fetchedAt": "2026-06-04T11:35:00.000Z",
+    "note": "Snapshot of stable official Pharos Port route links from homepage metadata and app config. Do not hardcode live campaign names; send users to the official campaign route for current information."
+  },
+  "summary": {
+    "title": "Pharos Port",
+    "description": "Your all-in-one entry to earn, interact, and explore on Pharos. Pharos Port is a RealFi hub for campaigns, rewards, staking links, bridge/swap, ramp, ecosystem discovery, and curated real-world assets."
+  },
+  "officialRoutes": [
+    {
+      "name": "Home",
+      "category": "portal",
+      "url": "https://port.pharos.xyz/",
+      "description": "Main Pharos Port entrypoint."
+    },
+    {
+      "name": "Bridge",
+      "category": "bridge",
+      "url": "https://port.pharos.xyz/bridge/",
+      "description": "Primary official entry for moving funds into Pharos from another network."
+    },
+    {
+      "name": "Swap",
+      "category": "swap",
+      "url": "https://port.pharos.xyz/swap",
+      "description": "Pharos Port swap route when enabled; otherwise use the ecosystem DEX route such as FaroSwap."
+    },
+    {
+      "name": "Ramp",
+      "category": "ramp",
+      "url": "https://port.pharos.xyz/ramp",
+      "description": "Fiat/on-ramp style entry from Pharos Port."
+    },
+    {
+      "name": "Airdrop Claim",
+      "category": "rewards",
+      "url": "https://claim.pharos.xyz/",
+      "description": "Official claim entry linked from Pharos Port rewards. Check the page for current claim availability."
+    },
+    {
+      "name": "Campaign",
+      "category": "rewards",
+      "url": "https://port.pharos.xyz/blockwaver",
+      "description": "Official Pharos Port campaign route. Use this page as the source of truth for current campaigns."
+    },
+    {
+      "name": "Campaign Rewards",
+      "category": "rewards",
+      "url": "https://port.pharos.xyz/blockwaver/rewards",
+      "description": "Official campaign rewards route. Use this page for current reward status and details."
+    },
+    {
+      "name": "PROS Pixel",
+      "category": "game",
+      "url": "https://prospixel.xyz/",
+      "description": "Official Pharos pixel art game/activity on Pharos Mainnet. Use this when users ask about games, activities, or PROS Pixel."
+    },
+    {
+      "name": "Harbor",
+      "category": "rwa",
+      "url": "https://port.pharos.xyz/harbor",
+      "description": "Curated real-world asset products on Pharos Port when the Harbor feature is available."
+    },
+    {
+      "name": "Ecosystem Projects",
+      "category": "ecosystem",
+      "url": "https://port.pharos.xyz/ecosystem/",
+      "description": "Official ecosystem project directory."
+    },
+    {
+      "name": "Ecosystem Partners",
+      "category": "ecosystem",
+      "url": "https://port.pharos.xyz/ecosystem#partners",
+      "description": "Official ecosystem partners section."
+    },
+    {
+      "name": "PharosScan",
+      "category": "explorer",
+      "url": "https://www.pharosscan.xyz/",
+      "description": "Mainnet block explorer for checking wallet transactions, addresses, blocks, tokens, and contract activity on Pharos."
+    },
+    {
+      "name": "PharosScan Verify Contract",
+      "category": "contract-verification",
+      "url": "https://www.pharosscan.xyz/verify-contract/",
+      "description": "PharosScan page for verifying deployed smart contract source code on Pharos mainnet."
+    },
+    {
+      "name": "Staking",
+      "category": "staking",
+      "url": "https://faroo.xyz/stake",
+      "description": "Staking route referenced in Pharos Port app config. Verify live product support and contract details before staking."
+    },
+    {
+      "name": "Nodes",
+      "category": "infra",
+      "url": "https://app.faroo.xyz/",
+      "description": "Nodes route referenced in Pharos Port app config."
+    },
+    {
+      "name": "Docs",
+      "category": "resources",
+      "url": "https://docs.pharos.xyz/",
+      "description": "Official Pharos documentation. Send users here when they ask for docs, technical references, or setup guides."
+    },
+    {
+      "name": "Blog & News",
+      "category": "resources",
+      "url": "https://www.pharos.xyz/resources",
+      "description": "Official Pharos resources and news."
+    },
+    {
+      "name": "Research & Analysis",
+      "category": "resources",
+      "url": "https://www.pharos.xyz/research",
+      "description": "Official Pharos research page."
+    },
+    {
+      "name": "Pharos Foundation",
+      "category": "resources",
+      "url": "https://www.pharosfoundation.xyz",
+      "description": "Pharos Foundation site."
+    }
+  ]
+}

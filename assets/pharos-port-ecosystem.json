@@ -1,0 +1,578 @@
+{
+  "source": {
+    "page": "https://port.pharos.xyz/ecosystem/",
+    "apiBase": "https://api.pharosnetwork.xyz",
+    "ecosystemEndpoint": "/omni_port/ecosystem",
+    "partnersEndpoint": "/omni_port/partners",
+    "fetchedAt": "2026-06-04T11:07:42.510Z",
+    "note": "Snapshot generated from the public Pharos Port ecosystem API. Verify live availability before recommending a write transaction."
+  },
+  "portalSummary": {
+    "title": "Pharos Port",
+    "description": "Your all-in-one entry to earn, interact, and explore on Pharos. Pharos Port acts as a RealFi hub for campaigns, rewards, staking links, bridge/swap, ecosystem projects, and curated real-world assets."
+  },
+  "counts": {
+    "totalProjects": 53,
+    "activeProjects": 42,
+    "comingSoonProjects": 11,
+    "tags": {
+      "AI": 1,
+      "Block Explorer": 2,
+      "Bridge": 6,
+      "BTCfi": 1,
+      "Custodian": 2,
+      "Data Analaytics": 1,
+      "DEX": 4,
+      "DID": 2,
+      "Fundraising": 1,
+      "Indexer": 1,
+      "KYC": 1,
+      "KYT": 1,
+      "Lending": 3,
+      "LST": 1,
+      "MPC": 1,
+      "Multisig": 1,
+      "Navigator": 1,
+      "NFT": 1,
+      "On/Off Ramp": 1,
+      "Oracle": 2,
+      "Payment": 1,
+      "Perp": 1,
+      "RPC": 3,
+      "RWA": 5,
+      "Security": 4,
+      "StableCoin": 1,
+      "Vault": 1,
+      "Wallet": 5,
+      "Yield Farming": 1
+    }
+  },
+  "projects": [
+    {
+      "name": "Agra",
+      "status": "active",
+      "tags": [
+        "DEX"
+      ],
+      "url": "https://bonds.agra.gg/",
+      "description": "The exchange for onchain credit, built for trading and financing tokenized credit."
+    },
+    {
+      "name": "Alchemy",
+      "status": "active",
+      "tags": [
+        "RPC"
+      ],
+      "url": "https://www.alchemy.com/",
+      "description": "Alchemy is a web3 development platform designed to make it easy to build and scale your dApp."
+    },
+    {
+      "name": "Alchemy Pay",
+      "status": "active",
+      "tags": [
+        "On/Off Ramp"
+      ],
+      "url": "https://alchemypay.org/",
+      "description": "Alchemy Pay is a payment solutions provider that connects the fiat and crypto economies for global consumers, merchants, developers, and institutions."
+    },
+    {
+      "name": "Anchorage",
+      "status": "active",
+      "tags": [
+        "Custodian"
+      ],
+      "url": "https://www.anchorage.com/",
+      "description": "Anchorage offers institutions integrated digital asset infrastructure, including custody, staking, governance, auditing, proof-of-existence, and trading."
+    },
+    {
+      "name": "AquaFlux",
+      "status": "active",
+      "tags": [
+        "RWA"
+      ],
+      "url": "https://www.aquaflux.pro",
+      "description": "AquaFlux unlocks RWA yield and liquidity with its tri-token model - customizing risk and return on-chain."
+    },
+    {
+      "name": "Asseto",
+      "status": "active",
+      "tags": [
+        "RWA"
+      ],
+      "url": "https://asseto.finance/",
+      "description": "Asseto focuses on RWA tokenized fintech companies and is committed to building a next-generation on-chain asset platform."
+    },
+    {
+      "name": "Bitverse",
+      "status": "active",
+      "tags": [
+        "DEX",
+        "Perp",
+        "RWA"
+      ],
+      "url": "https://www.bitverse.zone",
+      "description": "Bitverse is the all-in-one RWA perp DEX, bringing real-world assets and U.S. stock futures onto a single AI-powered trading platform."
+    },
+    {
+      "name": "Chainlink",
+      "status": "active",
+      "tags": [
+        "Oracle",
+        "Bridge"
+      ],
+      "url": "https://chain.link/",
+      "description": "Chainlink is an oracle infrastructure bringing the capital markets onchain and powering the majority of decentralized finance (DeFi)."
+    },
+    {
+      "name": "Circle",
+      "status": "active",
+      "tags": [
+        "StableCoin"
+      ],
+      "url": "https://www.circle.com/",
+      "description": "Circle (NASDAQ: CRCL) is a global fintech and the issuer of USDC, enabling blockchain-based payments and commerce worldwide."
+    },
+    {
+      "name": "Ember",
+      "status": "active",
+      "tags": [
+        "Vault"
+      ],
+      "url": "https://ember.so/earn",
+      "description": "An unified vault platform that tokenises any yield or fund strategy."
+    },
+    {
+      "name": "ExVul Security",
+      "status": "active",
+      "tags": [
+        "Security"
+      ],
+      "url": "https://exvul.com/",
+      "description": "ExVul is a Web3 security firm providing smart contract and blockchain protocol audits, wallet audits, Web3 penetration testing, and security consulting."
+    },
+    {
+      "name": "Faroo",
+      "status": "active",
+      "tags": [
+        "Lending"
+      ],
+      "url": "https://app.faroo.xyz/",
+      "description": "Powering Pharos Network with Liquid Staking & RWA Yields. Unlock Pharos mainnet token liquidity, amplify returns, and lead the ecosystem."
+    },
+    {
+      "name": "Faroswap",
+      "status": "active",
+      "tags": [
+        "DEX"
+      ],
+      "url": "https://faroswap.xyz",
+      "description": "Pharos-native DEX fueling RWA-Fi with precision & depth."
+    },
+    {
+      "name": "Fordefi",
+      "status": "active",
+      "tags": [
+        "MPC"
+      ],
+      "url": "https://fordefi.com/",
+      "description": "Fordefi is an institutional MPC wallet and security platform that enables institutions to interact across different blockchains."
+    },
+    {
+      "name": "GoldSky",
+      "status": "active",
+      "tags": [
+        "Indexer"
+      ],
+      "url": "https://goldsky.com/",
+      "description": "The Fastest, Most Scalable Blockchain Indexing."
+    },
+    {
+      "name": "Grandline",
+      "status": "active",
+      "tags": [
+        "NFT"
+      ],
+      "url": "https://app.grandline.world",
+      "description": "Native Platform for Launching and Trading NFTs."
+    },
+    {
+      "name": "Hemera",
+      "status": "active",
+      "tags": [
+        "Block Explorer"
+      ],
+      "url": "https://www.thehemera.com/",
+      "description": "Account-Centric Indexing Network."
+    },
+    {
+      "name": "Hypernative",
+      "status": "active",
+      "tags": [
+        "Security"
+      ],
+      "url": "https://www.hypernative.io/",
+      "description": "Hypernative protects Web3 protocols and asset managers by detecting and stopping zero-day, economic, and governance threats before losses occur."
+    },
+    {
+      "name": "InterPort",
+      "status": "active",
+      "tags": [
+        "Bridge"
+      ],
+      "url": "https://interport.fi/",
+      "description": "Pushing boundaries for seamless DeFi operations in Pharos Ecosystem.  Interport empowers traders with fast cross-chain swaps & bridge at the best rates."
+    },
+    {
+      "name": "Jumper",
+      "status": "active",
+      "tags": [
+        "Bridge"
+      ],
+      "url": "https://jumper.exchange",
+      "description": "Jumper is a LI.FI-powered cross-chain swap and bridge interface that aggregates liquidity across major chains."
+    },
+    {
+      "name": "Kucoin Wallet",
+      "status": "active",
+      "tags": [
+        "Wallet"
+      ],
+      "url": "https://www.kucoin.com/web3",
+      "description": "Find on‑chain alpha with KuCoin Web3 Wallet."
+    },
+    {
+      "name": "LayerZero",
+      "status": "active",
+      "tags": [
+        "Bridge"
+      ],
+      "url": "https://layerzero.network/",
+      "description": "LayerZero is an Omnichain Interoperability Protocol designed for lightweight message passing across chains."
+    },
+    {
+      "name": "LI.FI",
+      "status": "active",
+      "tags": [
+        "Bridge"
+      ],
+      "url": "https://li.fi/",
+      "description": "LI.FI is a bridge aggregation protocol with DEX connectivity and cross-chain data messaging capabilities."
+    },
+    {
+      "name": "Morpho",
+      "status": "active",
+      "tags": [
+        "Lending"
+      ],
+      "url": "https://morpho.org/",
+      "description": "Morpho is a lending protocol combining Compound/Aave-style pools with peer-to-peer orderbook-style matching."
+    },
+    {
+      "name": "Nirvana",
+      "status": "active",
+      "tags": [
+        "RPC"
+      ],
+      "url": "https://nirvanalabs.io/",
+      "description": "Nirvana Labs is a Web3 infrastructure solution for building, managing, and supporting any blockchain application."
+    },
+    {
+      "name": "OKU",
+      "status": "active",
+      "tags": [
+        "Lending"
+      ],
+      "url": "https://oku.trade/",
+      "description": "Oku is a premier DeFi aggregator live on 35+ chains offering 0% fees across 14 swap and 11 bridge routers to connect users with S-tier apps in crypto. "
+    },
+    {
+      "name": "OKX Wallet",
+      "status": "active",
+      "tags": [
+        "Wallet"
+      ],
+      "url": "https://web3.okx.com/",
+      "description": "The crypto wallet for everything onchain."
+    },
+    {
+      "name": "OneKey",
+      "status": "active",
+      "tags": [
+        "Wallet"
+      ],
+      "url": "https://onekey.so/",
+      "description": "OneKey is an open-source cryptocurrency wallet that allows users to securely and conveniently store and use their crypto assets."
+    },
+    {
+      "name": "Openzepplin",
+      "status": "active",
+      "tags": [
+        "Security"
+      ],
+      "url": "https://www.openzeppelin.com/",
+      "description": "OpenZeppelin is a crypto cybersecurity technology and services company."
+    },
+    {
+      "name": "Pharosverse",
+      "status": "active",
+      "tags": [
+        "Navigator"
+      ],
+      "url": "https://pharosverse.xyz",
+      "description": "Navigate through the vast ecosystem with the help of Pharosverse - the hub for insights, projects, and community power."
+    },
+    {
+      "name": "PNS",
+      "status": "active",
+      "tags": [
+        "DID"
+      ],
+      "url": "https://pharosname.com",
+      "description": "Official Domain of Pharos."
+    },
+    {
+      "name": "R25",
+      "status": "active",
+      "tags": [
+        "RWA"
+      ],
+      "url": "https://www.r25.xyz/",
+      "description": "R25 is an RWA tokenization protocol that uses IoT and AI to turn solar and EV assets into investable on-chain products."
+    },
+    {
+      "name": "Safe",
+      "status": "active",
+      "tags": [
+        "Multisig"
+      ],
+      "url": "https://app.safe.global/",
+      "description": "Safe is a smart contract wallet for secure asset management with multisig and modular access controls."
+    },
+    {
+      "name": "Supra",
+      "status": "active",
+      "tags": [
+        "Oracle"
+      ],
+      "url": "https://supra.com/",
+      "description": "All-In-One MultiVM Layer 1 Built for Super dApps."
+    },
+    {
+      "name": "TermMax",
+      "status": "active",
+      "tags": [
+        "Yield Farming"
+      ],
+      "url": "https://app.termmax.ts.finance/earn",
+      "description": "Fixed-Rate Digital Asset Lending & Borrowing Platform."
+    },
+    {
+      "name": "TopNod",
+      "status": "active",
+      "tags": [
+        "Wallet"
+      ],
+      "url": "https://topnod.com/",
+      "description": "A simple, secure self-custody wallet for managing RWA and other digital assets."
+    },
+    {
+      "name": "TRM",
+      "status": "active",
+      "tags": [
+        "KYT"
+      ],
+      "url": "https://www.trmlabs.com/",
+      "description": "TRM provides crypto compliance and risk management tools to help institutions and agencies detect, investigate, and prevent financial crime."
+    },
+    {
+      "name": "Trusta Labs",
+      "status": "active",
+      "tags": [
+        "Data Analaytics"
+      ],
+      "url": "https://www.trustalabs.ai/",
+      "description": "Trusta Labs focuses on Web3 security infrastructure, aiming to bring more valuable users to the Web3 world."
+    },
+    {
+      "name": "ZAN",
+      "status": "active",
+      "tags": [
+        "RPC"
+      ],
+      "url": "https://zan.top/",
+      "description": "A Suite of Plug-And-Play Tools and Services for Web3 Endeavors."
+    },
+    {
+      "name": "Zellic",
+      "status": "active",
+      "tags": [
+        "Security"
+      ],
+      "url": "https://www.zellic.io/",
+      "description": "Zellic is a blockchain security audit and consulting company, founded in 2020."
+    },
+    {
+      "name": "ZNS Connect",
+      "status": "active",
+      "tags": [
+        "DID"
+      ],
+      "url": "https://zns.bio/",
+      "description": "The Identity Layer of Web3 Multi-chain domains, GM + Deploy tools & AI-powered interaction."
+    },
+    {
+      "name": "Zona",
+      "status": "active",
+      "tags": [
+        "RWA"
+      ],
+      "url": "https://www.zona.finance/",
+      "description": "Deposit RWAs and unlock idle liquidity."
+    },
+    {
+      "name": "Avalon Labs",
+      "status": "coming_soon",
+      "tags": [
+        "BTCfi"
+      ],
+      "url": "https://www.avalonfinance.xyz/",
+      "description": "Powering Bitcoin’s On-Chain Capital Markets."
+    },
+    {
+      "name": "Bifrost",
+      "status": "coming_soon",
+      "tags": [
+        "LST"
+      ],
+      "url": "https://bifrost.io/",
+      "description": "Bifrost is a multi-chain staking yield layer providing standardized liquid staking rewards and composable yields for stablecoins, RWAs, and DeFi."
+    },
+    {
+      "name": "Bitget Wallet",
+      "status": "coming_soon",
+      "tags": [
+        "Wallet"
+      ],
+      "url": "https://web3.bitget.com/",
+      "description": "Bitget Wallet — Your Web3 Trading Wallet of the Future."
+    },
+    {
+      "name": "Bitgo",
+      "status": "coming_soon",
+      "tags": [
+        "Custodian"
+      ],
+      "url": "https://www.bitgo.com/",
+      "description": "BitGo is the first digital asset company that has been exclusively focused on serving institutional clients since 2013."
+    },
+    {
+      "name": "Kaiju Finance",
+      "status": "coming_soon",
+      "tags": [
+        "Payment"
+      ],
+      "url": "https://www.kaiju.fi",
+      "description": "A fully decentralized, asset-backed credit system connecting digital liquidity to real-world spending — no loans, no friction, just continuous access to credit."
+    },
+    {
+      "name": "LayerHub",
+      "status": "coming_soon",
+      "tags": [
+        "Block Explorer"
+      ],
+      "url": "https://layerhub.xyz/",
+      "description": "LayerHub is an on-chain analytics platform for investors and researchers to explore crypto networks and projects."
+    },
+    {
+      "name": "Orbiter",
+      "status": "coming_soon",
+      "tags": [
+        "Bridge"
+      ],
+      "url": "https://www.orbiter.finance/",
+      "description": "Orbiter Finance is a decentralized cross-rollup bridge for transferring Ethereum native assets, providing the infrastructure for Layer2."
+    },
+    {
+      "name": "Primus",
+      "status": "coming_soon",
+      "tags": [
+        "KYC"
+      ],
+      "url": "https://www.primuslabs.xyz/",
+      "description": "Primus Labs, an acronym for Privacy-Preserving Attestation Data Operator, is at the forefront of cutting-edge cryptography."
+    },
+    {
+      "name": "StationX",
+      "status": "coming_soon",
+      "tags": [
+        "Fundraising"
+      ],
+      "url": "https://www.stationx.network/",
+      "description": "StationX is a protocol for DAOs and communities to collectively manage and govern assets using configurable, template-based stations."
+    },
+    {
+      "name": "Vishwa",
+      "status": "coming_soon",
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.vishwanetwork.xyz/",
+      "description": "Trustless AI infra for autonomous finance."
+    },
+    {
+      "name": "Zenith",
+      "status": "coming_soon",
+      "tags": [
+        "DEX"
+      ],
+      "url": "https://testnet.zenithfinance.xyz/home",
+      "description": "The Beacon of DeFi - Secure, Fast, and User-Friendly Decentralized Exchange."
+    }
+  ],
+  "partners": {
+    "row1": [
+      {
+        "name": "Dispersion Capital",
+        "status": "active"
+      },
+      {
+        "name": "ChorusOne",
+        "status": "active"
+      },
+      {
+        "name": "Faction",
+        "status": "active"
+      },
+      {
+        "name": "Generative Ventures",
+        "status": "active"
+      },
+      {
+        "name": "Hashglobal",
+        "status": "active"
+      }
+    ],
+    "row2": [
+      {
+        "name": "Legend Star",
+        "status": "active"
+      },
+      {
+        "name": "Refrge",
+        "status": "active"
+      },
+      {
+        "name": "Legend Star",
+        "status": "active"
+      },
+      {
+        "name": "Ventrues",
+        "status": "active"
+      },
+      {
+        "name": "Ziov",
+        "status": "active"
+      }
+    ]
+  }
+}

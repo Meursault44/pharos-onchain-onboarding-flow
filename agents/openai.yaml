@@ -1,0 +1,7 @@
+interface:
+  display_name: "Pharos Onchain Onboarding Flow"
+  short_description: "Guides users from first Pharos steps to safe swaps and RealFi readiness."
+  default_prompt: "Use $pharos-onchain-onboarding-flow to check my Pharos wallet readiness and recommend the next safe onchain step."
+policy:
+  allow_implicit_invocation: true
+

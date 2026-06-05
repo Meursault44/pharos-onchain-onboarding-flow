@@ -1,0 +1,128 @@
+{
+  "official": {
+    "website": "https://www.pharos.xyz/",
+    "agentCenter": "https://www.pharos.xyz/agent-center",
+    "docs": "https://docs.pharos.xyz/",
+    "explorerMainnet": "https://www.pharosscan.xyz/",
+    "explorerAtlantic": "https://atlantic.pharosscan.xyz/"
+  },
+  "networkSummary": {
+    "positioning": "Pharos is an EVM-compatible Layer 1 focused on RealFi, RWA, and AI-native onchain applications.",
+    "mainnetName": "Pacific Mainnet",
+    "testnetName": "Atlantic Testnet",
+    "mainnetNativeToken": "PROS",
+    "testnetNativeToken": "PHRS"
+  },
+  "swapVenues": [
+    {
+      "name": "FaroSwap",
+      "category": "DEX",
+      "status": "ecosystem-dex",
+      "tradeUrl": "https://faroswap.xyz/swap",
+      "description": "Use for Pharos-native token swaps when the pair is available. Always verify the token address and inspect approvals before signing.",
+      "docs": "https://docs.faroswap.xyz/",
+      "safeUseChecklist": [
+        "Confirm wallet network is Pharos Pacific Mainnet for PROS.",
+        "Verify token addresses against a known-token list or official source.",
+        "Start with a small test swap when using a new route.",
+        "Avoid unlimited approvals unless the spender is verified and intentional.",
+        "Run transaction firewall inspection before signing."
+      ]
+    }
+  ],
+  "zeroProsVenues": [
+    {
+      "name": "Pharos Port Bridge",
+      "type": "Official Pharos bridge entry",
+      "pair": "cross-chain routes into Pharos",
+      "url": "https://port.pharos.xyz/bridge/",
+      "note": "Use as the primary official entry when moving funds into Pharos from another network. The route may use an integrated bridge provider; verify destination chain, received token, recipient, fees, and approvals before signing."
+    },
+    {
+      "name": "Jumper",
+      "type": "Bridge / cross-chain swap aggregator",
+      "pair": "cross-chain routes into Pharos",
+      "url": "https://jumper.xyz/?toChain=1672&toToken=0x0000000000000000000000000000000000000000",
+      "note": "Use as a direct bridge aggregator route when Pharos routes are available. Verify Pharos as the destination chain, the received asset, fees, and route before signing."
+    }
+  ],
+  "pharosSwapVenues": [
+    {
+      "name": "FaroSwap",
+      "type": "Pharos DEX",
+      "pair": "Pharos-native routes",
+      "url": "https://faroswap.xyz/swap",
+      "note": "Use for swaps after the wallet already has assets on Pharos. FaroSwap is for Pharos-native token swaps, not for bridging funds from another chain by itself."
+    }
+  ],
+  "cexVenues": [
+    {
+      "name": "OKX",
+      "type": "CEX spot",
+      "pair": "PROS/USDT",
+      "url": "https://www.okx.com/trade-spot/pros-usdt",
+      "note": "Centralized exchange spot market. Availability depends on region/account."
+    },
+    {
+      "name": "KuCoin",
+      "type": "CEX spot",
+      "pair": "PROS/USDT",
+      "url": "https://www.kucoin.com/price/PROS",
+      "note": "KuCoin PROS page with trade entry. Availability depends on region/account."
+    },
+    {
+      "name": "Bitget",
+      "type": "CEX spot",
+      "pair": "PROS/USDT",
+      "url": "https://www.bitget.com/support/articles/12560603883295",
+      "note": "Bitget listing page with spot trading link. Availability depends on region/account."
+    }
+  ],
+  "marketReferences": [
+    {
+      "name": "CoinGecko Markets",
+      "type": "market aggregator",
+      "url": "https://www.coingecko.com/en/coins/pharos-network",
+      "note": "Use only to compare tracked markets; it is not a direct place to buy PROS."
+    }
+  ],
+  "onboardingPaths": [
+    {
+      "id": "new-wallet",
+      "title": "New Wallet",
+      "goal": "Get the wallet ready for Pharos without signing risky transactions.",
+      "steps": [
+        "Add the correct Pharos network.",
+        "Verify the wallet address and account type.",
+        "Fund native gas token.",
+        "Check explorer activity.",
+        "Perform a low-risk read-only or small-value first action."
+      ]
+    },
+    {
+      "id": "swap-ready",
+      "title": "Swap Ready",
+      "goal": "Prepare a wallet to swap PROS safely.",
+      "steps": [
+        "Confirm native PROS balance for gas.",
+        "Choose a supported Pharos DEX route.",
+        "Verify token addresses.",
+        "Inspect approval calldata.",
+        "Reject dust/scam tokens and unknown unlimited approvals."
+      ]
+    },
+    {
+      "id": "realfi-ready",
+      "title": "RealFi Ready",
+      "goal": "Prepare a wallet for RWA/RealFi discovery without blindly depositing funds.",
+      "steps": [
+        "Check stablecoin and wrapped-native balances.",
+        "Review protocol documentation.",
+        "Inspect vault/token contracts before interaction.",
+        "Start with read-only portfolio/vault checks.",
+        "Run pre-signing firewall checks for deposits or approvals."
+      ]
+    }
+  ],
+  "socialSources": []
+}

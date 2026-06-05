@@ -1,0 +1,4 @@
+*.ts linguist-language=TypeScript
+*.json linguist-detectable=false
+package-lock.json linguist-generated=true
+
