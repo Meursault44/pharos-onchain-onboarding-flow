@@ -187,7 +187,7 @@ Live campaign names are intentionally not hardcoded. For current campaigns, the 
 Example questions:
 
 ```bash
-npm run onboard -- --ask "where is the Pharos airdrop claim?"
+npm run onboard -- --ask "как начать пользоваться Pharos с нуля"
 npm run onboard -- --ask "where can I see Pharos campaigns?"
 npm run onboard -- --ask "where is the official Pharos bridge?"
 npm run onboard -- --ask "where can I stake PROS on Pharos?"
