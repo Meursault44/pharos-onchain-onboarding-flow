@@ -193,6 +193,7 @@ npm run onboard -- --ask "where can I see Pharos campaigns?"
 npm run onboard -- --ask "where is the official Pharos bridge?"
 npm run onboard -- --ask "where can I stake PROS on Pharos?"
 npm run onboard -- --ask "which bridge can I use for Pharos?"
+npm run onboard -- --ask "where can I register a Pharos domain?"
 npm run onboard -- --ask "show me RWA apps on Pharos"
 ```
 
