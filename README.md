@@ -120,6 +120,21 @@ Recommended next actions
 - Pharos docs: https://docs.pharos.xyz/
 - Pharos mainnet explorer: https://www.pharosscan.xyz/
 - FaroSwap docs: https://docs.faroswap.xyz/
+- Pharos Port: https://port.pharos.xyz/
+- Pharos Port ecosystem page: https://port.pharos.xyz/ecosystem/
+- Pharos Port bridge: https://port.pharos.xyz/bridge/
+- Pharos Port swap: https://port.pharos.xyz/swap
+- Pharos Port ramp: https://port.pharos.xyz/ramp
+- Pharos campaign: https://port.pharos.xyz/blockwaver
+- Pharos campaign rewards: https://port.pharos.xyz/blockwaver/rewards
+- PROS Pixel game/activity: https://prospixel.xyz/
+- Pharos Harbor: https://port.pharos.xyz/harbor
+- Pharos ecosystem partners: https://port.pharos.xyz/ecosystem#partners
+- PharosScan contract verification: https://www.pharosscan.xyz/verify-contract/
+
+The skill includes local snapshots in `assets/pharos-port-routes.json` and `assets/pharos-port-ecosystem.json`. The ecosystem snapshot currently includes 53 projects across 29 tags, including Wallet, DEX, Bridge, RWA, Lending, Yield Farming, Vault, LST, Security, Oracle, RPC, Block Explorer, DID, NFT, Payment, and On/Off Ramp.
+
+Live campaign names are intentionally not hardcoded. For current campaigns, the skill should direct users to the official campaign and campaign rewards pages above.
 
 ## PROS Buy / Swap Links
 
@@ -142,38 +157,6 @@ Use this after the wallet already has assets on Pharos. FaroSwap is for Pharos-n
 - Bitget PROS listing/trade page: https://www.bitget.com/support/articles/12560603883295
 
 CoinGecko is intentionally not listed as a buy venue. It can be used only as a market reference page.
-
-## Pharos Port Ecosystem
-
-The skill includes `assets/pharos-port-routes.json` and `assets/pharos-port-ecosystem.json`, generated from:
-
-- Pharos Port: https://port.pharos.xyz/
-- Pharos Port ecosystem page: https://port.pharos.xyz/ecosystem/
-- Ecosystem API: `https://api.pharosnetwork.xyz/omni_port/ecosystem`
-- Partners API: `https://api.pharosnetwork.xyz/omni_port/partners`
-
-Official Pharos Port routes now covered:
-
-- Home: https://port.pharos.xyz/
-- Bridge: https://port.pharos.xyz/bridge/
-- Swap: https://port.pharos.xyz/swap
-- Ramp: https://port.pharos.xyz/ramp
-- Airdrop claim: https://claim.pharos.xyz/
-- Campaign: https://port.pharos.xyz/blockwaver
-- Campaign rewards: https://port.pharos.xyz/blockwaver/rewards
-- PROS Pixel game/activity: https://prospixel.xyz/
-- Harbor: https://port.pharos.xyz/harbor
-- Ecosystem projects: https://port.pharos.xyz/ecosystem/
-- Partners: https://port.pharos.xyz/ecosystem#partners
-- PharosScan wallet transactions: https://www.pharosscan.xyz/
-- PharosScan contract verification: https://www.pharosscan.xyz/verify-contract/
-
-The snapshot currently includes 53 projects across 29 tags, including Wallet, DEX, Bridge, RWA, Lending, Yield Farming, Vault, LST, Security, Oracle, RPC, Block Explorer, DID, NFT, Payment, and On/Off Ramp.
-
-Live campaign names are intentionally not hardcoded. For current campaigns, the skill should direct users to:
-
-- https://port.pharos.xyz/blockwaver
-- https://port.pharos.xyz/blockwaver/rewards
 
 Example questions:
 
