@@ -1,22 +1,25 @@
 # Pharos Onchain Onboarding Flow
 
-AI-agent onboarding skill for Pharos users. It helps an agent explain Pharos, check wallet readiness, recommend the next safe onchain step, and guide users toward PROS swaps without blindly approving unknown transactions.
+AI-agent onboarding skill for Pharos users. It helps an agent explain Pharos, guide zero-start onboarding, check wallet readiness, recommend the next safe onchain step, route users to current Pharos Port activities, discover ecosystem projects, find Pharos domain registration, and guide PROS swaps without blindly approving unknown transactions.
 
 ## What It Does
 
-🌊 **Turns a wallet into an onboarding state**
+**Turns a wallet into an onboarding state**
 
 The skill checks whether a wallet is new, funded, active, ready for swaps, or ready for RealFi exploration. It uses read-only Pharos RPC calls for native balance, transaction count, account type, and known-token balances.
 
-🧭 **Answers practical Pharos questions**
+**Answers practical Pharos questions**
 
 The agent can answer questions like:
 
-- “What is Pharos?”
-- “How do I start using Pharos mainnet?”
-- “Where can I swap PROS?”
-- “Is this wallet ready for Pharos?”
-- “What should I do next onchain?”
+- "What is Pharos?"
+- "How do I start using Pharos from zero?"
+- "Where can I swap PROS?"
+- "What activities are currently available on Pharos?"
+- "Which ecosystem projects are live on Pharos?"
+- "Where can I register a Pharos domain?"
+- "Is this wallet ready for Pharos?"
+- "What should I do next onchain?"
 
 For zero-start onboarding, the first step should include the full Pharos Pacific Mainnet wallet setup, not only the network name:
 
@@ -28,7 +31,7 @@ For zero-start onboarding, the first step should include the full Pharos Pacific
 
 Tell the user to add the network manually through their wallet network selector, save it, switch to `Pharos Pacific Mainnet`, and confirm chain id `1672` before getting PROS or signing any action.
 
-🔁 **Guides PROS buy and swap onboarding**
+**Guides PROS buy and swap onboarding**
 
 For swap requests, the skill recommends a cautious flow:
 
@@ -41,11 +44,11 @@ For swap requests, the skill recommends a cautious flow:
 - start with a small test swap;
 - inspect approval and swap calldata before signing.
 
-🛡️ **Adds a safety gate before real transactions**
+**Adds a safety gate before real transactions**
 
 The skill does not sign or send transactions. If a user wants to swap, approve, transfer, deposit, or interact with a contract, it tells the agent to run a pre-signing firewall inspection first.
 
-🧩 **Discovers Pharos ecosystem apps**
+**Discovers Pharos ecosystem apps**
 
 The skill includes local snapshots from Pharos Port routes and ecosystem data. It can route users to official entrypoints and relevant dApps by intent:
 
@@ -57,6 +60,7 @@ The skill includes local snapshots from Pharos Port routes and ecosystem data. I
 - official Pharos games and activities such as PROS Pixel;
 - Pharos-native swaps;
 - RWA / RealFi;
+- Pharos domains and DID routes such as PNS;
 - wallets;
 - explorers and analytics;
 - security, multisig, and audits;
