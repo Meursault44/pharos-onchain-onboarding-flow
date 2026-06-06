@@ -1,6 +1,6 @@
 # Pharos Onchain Onboarding Flow
 
-AI-agent onboarding skill for Pharos users. It helps an agent explain Pharos, guide zero-start onboarding, check wallet readiness, recommend the next safe onchain step, route users to current Pharos Port activities, discover ecosystem projects, find Pharos domain registration, and guide PROS swaps without blindly approving unknown transactions.
+AI-agent onboarding skill for Pharos users. It helps an agent explain Pharos, guide zero-start onboarding, check wallet readiness, recommend the next safe onchain step, route users to current Pharos Port activities, discover ecosystem projects, and guide PROS swaps without blindly approving unknown transactions.
 
 ## What It Does
 
