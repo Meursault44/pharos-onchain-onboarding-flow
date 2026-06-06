@@ -34,7 +34,7 @@ When a user asks where or how to swap PROS:
    - `CEX`: centralized exchange spot markets.
 4. If the user has 0 PROS or needs to bring funds from another chain, point to the official Pharos entry first:
    - Pharos Port Bridge: `https://port.pharos.xyz/bridge/`
-   - Jumper direct route: `https://jumper.xyz/?toChain=1672&toToken=0x0000000000000000000000000000000000000000`
+   - Treat bridge aggregators such as Jumper as ecosystem projects, not as the official bridge entry.
 5. If the user already has assets on Pharos and only wants a Pharos-native swap, point to:
    - FaroSwap: `https://faroswap.xyz/swap`
 6. For centralized trading, point to CEX spot markets:

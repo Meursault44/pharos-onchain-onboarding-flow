@@ -443,7 +443,7 @@ function buildReport(network: Network, tokens: Token[], ecosystem: Ecosystem, po
   const ecosystemMatches = selectEcosystemProjects(ask, port);
   const swapGuidance = wantsSwap ? [
     "If the wallet has 0 PROS or needs to bring funds from another chain, start with the official Pharos Port Bridge.",
-    "Use Jumper as a direct bridge aggregator route when Pharos routes are available, or buy PROS on a CEX first.",
+    "Treat bridge aggregators such as Jumper as ecosystem projects, not as the official bridge entry.",
     `If the wallet already has assets on Pharos, use ${swapVenue.name}: ${swapVenue.tradeUrl ?? swapVenue.docs}`,
     `For native PROS swaps, confirm the wallet is on ${network.displayName}; wrapped PROS is listed locally as WPROS on mainnet.`,
     "Verify token addresses, not only symbols, before approving or swapping.",

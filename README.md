@@ -126,9 +126,8 @@ Recommended next actions
 ### Get PROS with 0 PROS
 
 - Pharos Port Bridge: https://port.pharos.xyz/bridge/
-- Jumper direct route: https://jumper.xyz/?toChain=1672&toToken=0x0000000000000000000000000000000000000000
 
-Use Pharos Port Bridge as the primary official entry when the wallet has no PROS yet and needs a cross-chain route into Pharos. Jumper can be used as a direct bridge aggregator route when Pharos routes are available. Always verify Pharos as the destination chain, token address, recipient, fees, and route before signing.
+Use Pharos Port Bridge as the primary official entry when the wallet has no PROS yet and needs a cross-chain route into Pharos. Always verify Pharos as the destination chain, token address, recipient, fees, and route before signing. Bridge aggregators such as Jumper should be treated as ecosystem projects, not as the official bridge entry.
 
 ### Swap Inside Pharos
 

@@ -37,13 +37,6 @@
       "pair": "cross-chain routes into Pharos",
       "url": "https://port.pharos.xyz/bridge/",
       "note": "Use as the primary official entry when moving funds into Pharos from another network. The route may use an integrated bridge provider; verify destination chain, received token, recipient, fees, and approvals before signing."
-    },
-    {
-      "name": "Jumper",
-      "type": "Bridge / cross-chain swap aggregator",
-      "pair": "cross-chain routes into Pharos",
-      "url": "https://jumper.xyz/?toChain=1672&toToken=0x0000000000000000000000000000000000000000",
-      "note": "Use as a direct bridge aggregator route when Pharos routes are available. Verify Pharos as the destination chain, the received asset, fees, and route before signing."
     }
   ],
   "pharosSwapVenues": [
