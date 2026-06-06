@@ -78,7 +78,7 @@ Most onboarding tools only show generic docs or a wallet balance. This skill giv
 
 That makes it useful for new users, Pharos community support, RealFi onboarding, and agent-driven dApp flows.
 
-## Quick Demo
+## Installation
 
 ```bash
 npx skills add https://github.com/Meursault44/pharos-onchain-onboarding-flow.git
