@@ -81,29 +81,17 @@ That makes it useful for new users, Pharos community support, RealFi onboarding,
 ## Quick Demo
 
 ```bash
-git clone -
-cd pharos-onchain-onboarding-flow
-npm install
-npm run onboard -- --ask "where can I swap PROS?"
+npx skills add https://github.com/Meursault44/pharos-onchain-onboarding-flow.git
 ```
 
-Check a wallet:
+After installation, ask the agent normal onboarding questions such as:
 
-```bash
-npm run onboard -- --network mainnet --wallet 0xYourWallet
-```
-
-Ask for a swap plan with wallet context:
-
-```bash
-npm run onboard -- --network mainnet --wallet 0xYourWallet --ask "swap PROS to USDC"
-```
-
-Return JSON for another agent:
-
-```bash
-npm run onboard -- --network mainnet --wallet 0xYourWallet --ask "how do I start on Pharos?" --json
-```
+- "How do I start using Pharos from zero?"
+- "Where can I swap PROS?"
+- "What activities are currently available on Pharos?"
+- "Which ecosystem projects are live on Pharos?"
+- "Where can I register a Pharos domain?"
+- "Is this wallet ready for Pharos?"
 
 ## Example Output
 
@@ -190,16 +178,14 @@ Live campaign names are intentionally not hardcoded. For current campaigns, the 
 
 Example questions:
 
-```bash
-npm run onboard -- --ask "how do I start using Pharos from zero?"
-npm run onboard -- --ask "what activities are currently available on Pharos?"
-npm run onboard -- --ask "where can I see Pharos campaigns?"
-npm run onboard -- --ask "where is the official Pharos bridge?"
-npm run onboard -- --ask "where can I stake PROS on Pharos?"
-npm run onboard -- --ask "which bridge can I use for Pharos?"
-npm run onboard -- --ask "where can I register a Pharos domain?"
-npm run onboard -- --ask "show me RWA apps on Pharos"
-```
+- "How do I start using Pharos from zero?"
+- "What activities are currently available on Pharos?"
+- "Where can I see Pharos campaigns?"
+- "Where is the official Pharos bridge?"
+- "Where can I stake PROS on Pharos?"
+- "Which bridge can I use for Pharos?"
+- "Where can I register a Pharos domain?"
+- "Show me RWA apps on Pharos."
 
 ## Agent Usage
 
