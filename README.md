@@ -97,15 +97,33 @@ After installation, ask the agent normal onboarding questions such as:
 
 ```text
 Pharos Onchain Onboarding Flow
-Decision stage: GUIDE
+Decision stage: NEW
 Network: Pharos Pacific Mainnet (1672)
 
-For PROS swap onboarding, guide the user to FaroSwap, verify the exact token addresses, confirm Pharos Pacific Mainnet, and run pre-signing checks before approval or swap.
+How to start using Pharos from zero
+
+1. Add Pharos Pacific Mainnet to your wallet:
+   - Network name: Pharos Pacific Mainnet
+   - RPC URL: https://rpc.pharos.xyz
+   - Chain ID: 1672
+   - Currency symbol: PROS
+   - Block explorer: https://www.pharosscan.xyz/
+
+2. Prepare an EVM wallet and keep the seed phrase/private key private.
+
+3. Get a small amount of PROS for gas. If the wallet has 0 PROS, start with the official Pharos Port Bridge or Pharos Port Ramp:
+   - Bridge: https://port.pharos.xyz/bridge/
+   - Ramp: https://port.pharos.xyz/ramp
+
+4. Check the address on PharosScan:
+   - https://www.pharosscan.xyz/
+
+5. Start with a small first action through official Pharos Port routes, such as bridge, swap, campaign, PROS Pixel, or ecosystem discovery.
 
 Recommended next actions
-- Ask the user for a wallet address to produce a personalized readiness score.
-- If the goal is swapping PROS, use Pharos Pacific Mainnet and verify the target token address first.
-- Use read-only checks first; require firewall inspection before any approval or swap.
+- Confirm the wallet is on chain id 1672 before signing.
+- Verify token addresses, recipient, spender, fees, and calldata before any approval, swap, transfer, deposit, or contract write.
+- Ask for a wallet address only if the user wants a personalized readiness check.
 ```
 
 ## Supported Networks
